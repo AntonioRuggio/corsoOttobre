@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        window.onload=gestoreLoad;
+
+            function gestoreLoad(){
+            let btn=document.getElementById("btn");
+            btn.onclick = dark;
+
+            function dark(){
+                alert("CIAO")
+                document.body.style.backgroundColor="black";
+                document.body.style.color="white";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque eum nobis, accusamus natus excepturi culpa quis incidunt doloremque similique? Quas, excepturi nisi repudiandae facere doloremque voluptatibus cum rerum nulla neque!<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dolorem quisquam a quibusdam odit, mollitia expedita cumque, cum reprehenderit odio est iusto laborum. Ut, earum. Quos cum ipsum eos non?<br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, eos? Cupiditate nostrum iure dolores laudantium, omnis dolor, voluptatibus sunt odit expedita deleniti nulla aliquam qui quisquam suscipit id asperiores praesentium!<br>
+
+    </div>
+    <button id="btn">DARK</button>
+    
+</body>
+</html>
